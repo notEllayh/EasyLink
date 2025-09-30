@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- fontawesome 4.7.0  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>EasyLink</title>
+</head>
+<body class="">
+<!-- Navbar -->
+<main>
+<nav class="bg-white p-4 border border-t-0 border-x-0 fixed top-0 w-full">
+    <div class="lg:max-w-[75vw] mx-auto flex items-center justify-between">
+        <div class="text-red-600 text-2xl font-bold cursor-pointer">
+            <div class="flex items-center justify-center gap-3 ">
+                <img src="images/communities.png" alt="" class="w-12 h-12">
+            <div>
+            <a href="index.html">EasyLink</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="space-x-10 hidden lg:flex lg:items-center">
+            <a href="">Features</a>
+            <a href="">Download</a>
+            <a href="">Support</a>
+            <a href="" class="border p-1 rounded-[8px] text-white font-semibold cursor-pointer bg-red-600">Get Started</a>
+        </div>
+
+        <div class="lg:hidden" id="menuBtn">
+            <i class="bx bx-menu border p-2 text-center rounded-[5px]"></i>
+        </div>
+    </div>
+</nav>
+
+<!-- Sidebar -->
+ <aside id="sidenav" class="sidebar fixed top-16 right-0 w-full h-80 bg-white shadow-2xl z-50 hidden">
+    <div class="p-10">
+        <ul class="flex flex-col gap-4 mt-5 font-semibold text-gray-500 text-[20px]"> 
+            <a href="">Features</a>
+            <a href="">Download</a>
+            <a href="">Support</a>
+            <button class="border p-3 w-full cursor-pointer font-bold text-white bg-red-600 rounded-lg hover:bg-red-500">Get Started</button>
+        </ul>
+    </div>
+ </aside>
+
+<!-- Hero Section -->
+<section class="p-20">
+    <div class="flex items-center gap-3 mt-20">
+        <img src="images/communities.png" alt="" class="w-15 h-15">
+        <div>
+            <h2 class="text-4xl font-bold">EasyLink</h2>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <h2 class="text-5xl font-bold mt-8">Seamless Connectivity,<span class="block md:inline lg:block text-red-600 font-bold text-5xl"> Anytime, Anywhere</span></h2>
+            <p class="mt-10">Your digital travel companion. Stay connected globally with affordable eSIM plans, fast and reliable network coverage wherever your journey takes you.</p>
+
+            <div class="mt-10 flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+                <button class="inline-flex items-center justify-center gap-2 bg-red-600 rounded-md w-[280px] p-2 text-white font-bold shadow-2xl"><img src="images/appstore.svg" alt="Download on App Store">Download on App Store</button>
+                <button class="inline-flex items-center justify-center gap-2 border border-gray-300 rounded-md w-[280px] p-2 text-black font-semibold shadow-2xl"><img src="images/googlePlay-Dpyizf8F.svg" alt="Get it on Google Play">Get it on Google Play</button>
+            </div>
+
+            <div class="flex flex-wrap gap-4 justify-center lg:justify-start text-sm mt-10">
+                <div class="flex items-center gap-2">
+                <div class="w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
+                <span>Global coverage</span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                <div class="w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
+                <span>Instant Activation</span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                <div class="w-2 h-2 bg-red-600 rounded-full animate-pulse"></div>
+                <span>24/7 Support</span>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/hero-connectivity-BD7llgfT.jpg" alt="" class="rounded-2xl w-full mx-auto">
+            </div>
+    </div>
+
+</section>
+
+<!-- Why Choose EasyLink? -->
+<section class="p-20">
+    <div class="text-center">
+        <h2 class="text-3xl font-bold">Why Choose<span class="text-red-600"> EasyLink?</span></h2>
+        <p class="mt-5">Experience the future of mobile connectivity with our cutting-edge eSIM technology. <span class="block">Built for modern travelers who demand reliability and convenience.</span></p>
+    </div>
+
+    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-20">
+        <div class="rounded-lg text-center shadow-sm p-6">
+            <i class='bx  bx-wifi bg-red-600  text-3xl text-white p-5 rounded-[15px]'></i> 
+            <h4 class="my-3 font-semibold text-[20px]">Stay connected <span class="block">anywhere</span></h4>
+            <p class="text-gray-500">Global network coverage in 190+ countries and territories. Never lose connection while traveling.</p>
+            <p class="flex justify-center text-red-600 bg-red-300 mt-5 p-1 rounded-[20px] w-[150px] font-semibold">190+ Countries</p>
+        </div>
+
+        <div class="rounded-lg text-center shadow-sm p-6">
+            <i class='bx  bx-wallet-alt bg-red-600  text-3xl text-white p-5 rounded-[15px]'  ></i>  
+            <h4 class="my-3 font-semibold text-[20px]">Affordable eSIM<span class="block"> plans</span></h4>
+            <p class="text-gray-500">Transparent pricing with no hidden fees. Choose from flexible data plans that fit your needs.</p>
+            <p class="text-red-600 bg-red-300 mt-5 p-1 rounded-[20px] w-[150px] text-center font-semibold">No Hidden Fees</p>
+        </div>
+
+        <div class="rounded-lg text-center shadow-sm p-6">
+            <i class='bx  bx-bolt bg-red-600  text-3xl text-white p-5 rounded-[15px]'  ></i>  
+            <h4 class="my-3 font-semibold text-[20px]">Fast and reliable</h4>
+            <p class="text-gray-500">Lightning-fast 4G/5G networks with 99.9% uptime. Experience seamless connectivity everywhere.</p>
+            <p class="text-red-600 bg-red-300 mt-5 p-1 rounded-[20px] w-[150px] text-center font-semibold">99.9% Uptime</p>
+        </div>
+
+        <div class="rounded-lg text-center shadow-sm p-6">
+            <i class='bx  bx-shield bg-red-600  text-3xl text-white p-5 rounded-[15px]'></i> 
+            <h4 class="my-3 font-semibold text-[20px]">Your digital travel<span class="block"> companion</span></h4>
+            <p class="text-gray-500">Secure, encrypted connections with instant activation. Your trusted partner for global adventures.</p>
+            <p class="text-red-600 bg-red-300 mt-5 p-1 rounded-[20px] w-[150px] text-center font-semibold">Instant Setup</p>
+        </div>
+    </div>
+</section>
+
+<!-- Welcome to EasyLink -->
+<section class="p-20 flex items-center justify-center">
+    <div class="grid sm:grid-cols-1 p-8 lg:grid-cols-2 bg-red-400 rounded-2xl lg:w-300 lg:p-16">
+        <div class="p-20">
+            <h2 class="text-4xl font-bold">Welcome to EasyLink</h2>
+            <p class="mt-8 text-gray-500 text-lg">Join millions of travelers who trust EasyLink for their connectivity needs. Download our app today and experience the freedom of global connectivity without the hassle of physical SIM cards.</p>
+            <div class="flex gap-4 my-6">
+                <i class='bx  bx-radio-circle-marked bg-white rounded-full w-4 h-4'></i> 
+                <div>
+                    <p class="font-bold">Instant eSIM activation in seconds</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 mb-4">
+                <i class='bx  bx-radio-circle-marked bg-white rounded-full w-4 h-4'  ></i>
+                <div>
+                    <p class="font-bold">24/7 customer support worldwide</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 mb-4">
+                <i class='bx  bx-radio-circle-marked bg-white rounded-full w-4 h-4'  ></i>
+                <div>
+                    <p class="font-bold">Flexible data plans for every journey</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-red-400 rounded-2xl">
+            <div>
+                <img src="images/demoScreen.png" alt="" class="w-full max-w-md mx-auto rounded-2xl shadow-2xl mt-15">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Download -->
+<section class="mt-30">
+    <div>
+        <div>
+            <div>
+                <div class="text-center max-w-4xl mx-auto">
+                    <div class="flex items-center justify-center gap-4 mb-6">
+                        <img src="images/communities.png" alt="" class="w-16 h-16 lg:w-20 lg:h-20">
+                        <div>
+                            <h2 class="text-2xl lg:text-3xl font-bold">EasyLink eSIM</h2>
+                            <p class="text-red-600 font-medium">Ready to download</p>
+                        </div>
+                    </div>
+                    <h3 class="text-4xl lg:text-5xl font-bold mb-6">Start Your Journey<span class="block text-red-600">Download Now</span></h3>
+                    <p class="text-xl mb-10 max-w-2xl mx-auto">Get the EasyLink app and unlock seamless global connectivity. Available on both iOS and Android platforms.</p>
+
+                    <div class="flex  flex-col sm:flex-row gap-6 justify-center mb-12">
+                        <button class="inline-flex items-center justify-center cursor-pointer gap-2 bg-red-600 text-white font-semibold rounded-md text-lg px-8 py-6 h-auto shadow-2xl">
+                            <img src="images/appstore.svg" alt="" class="w-8 md:w-l2">
+                            <div>
+                                <div>Download on the</div>
+                                <div>App Store</div>
+                            </div>
+                            <i class='bx  bx-arrow-right ml-3 h-5 w-5'  ></i> 
+                        </button>
+                        <button>
+                            <button class="inline-flex items-center justify-center cursor-pointer gap-2 bg-white text-black font-semibold rounded-md text-lg px-8 py-6 h-auto shadow-2xl">
+                            <img src="images/googlePlay-Dpyizf8F.svg" alt="" class="w-8 md:w-l2">
+                            <div>
+                                <div>Download on the</div>
+                                <div>App Store</div>
+                            </div>
+                            <i class='bx  bx-arrow-right ml-3 h-5 w-5'  ></i> 
+                        </button>
+                    </div>
+                    <div>
+                        <div>190+</div>
+                        <div>Countries Supported</div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white mt-20 py-20">
+    <div class="text-center">
+        <div class="flex items-center justify-center gap-4 mb-6">
+            <img src="images/communities.png" alt="" class="w-12 h-12">
+        <div>
+        <h2 class="font-bold text-2xl">EasyLink eSIM</h2>
+        <p>Seamless Connectivity, Anytime, Anywhere</p>
+        </div>
+        </div>
+    </div>
+
+    <p class="text-center mt-5">Your trusted digital travel companion for global connectivity. Stay connected across 190+<span class="block">countries with our reliable eSIM solutions.</span></p>
+    <hr class="my-10 text-gray-600">
+    <p class="text-center">© 2025 EasyLink eSIM. All rights reserved.</p>
+</footer>
+</main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="sidenav.js"></script>
+</body>
+</html>
