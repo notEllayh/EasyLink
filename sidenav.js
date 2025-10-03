@@ -1,6 +1,8 @@
-const menuBtn = document.getElementById('menuBtn');
-const sidenav = document.getElementById('sidenav');
+const menuBtn = document.getElementById("menuBtn");
+const sidenav = document.getElementById("sidenav");
 
 menuBtn.addEventListener("click", () => {
-    sidenav.classList.toggle("hidden");
-})
+  sidenav.classList.toggle("hidden");
+});
+
+AOS.init();
